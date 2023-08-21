@@ -1,0 +1,90 @@
+body{
+    color:rgb(255, 255, 255);
+    background-color: rgb(19, 26, 21);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    display: grid;
+    font-weight: bold;
+    place-items: center;
+   
+}
+.teclado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    background-color: rgb(213, 213, 226);
+    border: none;
+    display: inline-block;
+    padding: .5rem 1rem;
+    margin: .3rem;
+    font-size: 1.3rem;
+    color: rgb(7, 7, 7);
+    width: 50px;
+    height: 50px;
+    border-radius: .5rem;
+}
+.delete {
+    font-size: 1rem;
+    width: 100px; 
+    text-transform: capitalize;
+
+}
+
+.chutar{
+    font-size: 1rem;
+    width: 100px; 
+    text-transform: capitalize;
+}
+
+.texto-feedback {
+    width: 94%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.corpo-do-jogo{
+    display: grid;
+    align-items: center;
+    gap: 30px;
+}
+
+.botao-jogar-novamente{
+    height: 45px;
+    font-size: 20PX;
+    padding: 5PX 10PX;
+    border-radius: 10px;
+    background-color: rgb(35, 255, 145);
+    box-shadow: 0px 5px ;
+}
+
+.image-jogar-novamente{
+    width: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+input{
+    width: 50%;
+    height: 10px;
+    resize: none;
+    padding: .5rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: 2px solid rgb(104, 104, 255);
+    border-radius: .5rem;
+}
+
+.titulo-principal{
+    width: 500px;
+}
+.texto-palavra-parcial{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}

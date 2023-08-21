@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Forca</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div>
+        <h1 clas="titulo-principal">Jogo Da Forca</h1>
+    </div>
+
+    <div class="corpo-do-jogo" id="corpoDoJogo">       
+       
+        <div class="divisao-forca">
+            <image  class="desenho-forca" id="imagemForca" src="ImagensTentativas/Forca1.png"></image>
+        </div>
+
+        <div>
+            <input class="texto-feedback" id="txtFedback"></input> 
+        </div>       
+         
+        <p class="texto-palavra-parcial" id="txtPalavraParcial"></p>
+        
+         
+    </div>
+    <div id="notificacaoDerrota">
+
+    </div>
+
+    <div class="teclado">
+
+            <div class="linha">
+                <button class="delete" id="btnDeletar">Delete</button>
+                <button class="chutar" id="btnChutar">Chutar!</button>
+                <button class="botao-jogar-novamente" id="btnJogarNovamente">
+                    <image src ="ImagensTentativas/32303.png"  class="image-jogar-novamente"></image>
+                </button> 
+        
+            </div>
+
+            <div class="linha">
+                <button class="btn">q</button>
+                <button class="btn">w</button>
+                <button class="btn">e</button>
+                <button class="btn">r</button>
+                <button class="btn">t</button>
+                <button class="btn">y</button>
+                <button class="btn">u</button>
+                <button class="btn">i</button>
+                <button class="btn">o</button>
+                <button class="btn">p</button>
+            </div>
+
+            <div class="linha">
+                <button class="btn">a</button>
+                <button class="btn">s</button>
+                <button class="btn">d</button>
+                <button class="btn">f</button>
+                <button class="btn">g</button>
+                <button class="btn">h</button>
+                <button class="btn">j</button>
+                <button class="btn">k</button>
+                <button class="btn">l</button>
+            </div>
+
+            <div class="linha">
+                <button class="btn">z</button>
+                <button class="btn">x</button>
+                <button class="btn">c</button>
+                <button class="btn">v</button>
+                <button class="btn">b</button>
+                <button class="btn">n</button>
+                <button class="btn">m</button>
+            </div>
+       </div>
+
+</body>
+</html>
